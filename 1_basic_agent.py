@@ -17,4 +17,4 @@ result = agent.invoke(  # invoke() runs the agent.
     {"messages": [{"role": "user", "content": "What's the weather in Mumbai"}]}
 )
 
-print(result["messages"][-1].content_blocks)
+print(result["messages"][-1].content_blocks) # get the last message in the messages list, the last message is the agent's final answer.

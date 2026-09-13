@@ -1,4 +1,4 @@
-# All agents include a sequence of messages in their state; to invoke the agent, pass a new message along with a thread_id so the agent can persist and resume conversation history. The important concept is that the agent remembers the first message when you ask the second message because both calls use the same thread_id.
+# All agents include a sequence of messages in their state; To invoke the agent, pass a new message along with a thread_id so the agent can persist and resume conversation history. The important concept is that the agent remembers the first message when you ask the second message because both calls use the same thread_id.
 
 from langchain.agents import create_agent
 from langchain_core.utils.uuid import uuid7     # A UUID is a unique identifier.
